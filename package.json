@@ -1,0 +1,33 @@
+{
+  "name": "js-game",
+  "version": "1.0.0",
+  "description": "refer bower.json located in public",
+  "main": "gulp.js",
+  "scripts": {
+    "start": "gulp browser-sync"
+  },
+  "keywords": [
+    "gulp",
+    "browser-sync"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "author": "divyanshu rawat",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-jscs": "^4.0.0",
+    "gulp-jshint": "^2.0.4",
+    "gulp-notify": "^3.0.0",
+    "gulp-notify-growl": "^1.0.2",
+    "jscs": "^3.0.7",
+    "jshint": "^2.9.5",
+    "jshint-stylish": "^2.2.1"
+  }
+}

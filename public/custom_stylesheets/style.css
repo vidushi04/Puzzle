@@ -1,0 +1,28 @@
+
+.container{
+	margin-top:5%;
+}
+
+.custom-style-div{
+	
+	background: url(../custom_images/icon.jpg) no-repeat;
+	height:110px;
+	
+	background-size:contain !important;
+	background-position:center !important;
+	
+	margin:10px;
+	padding:20px;
+	
+	font-size:64px;
+	cursor:pointer;
+	text-align:center;
+}
+
+.navbar-margin{
+	margin: 7px !important;
+}
+
+.white{
+	color: white;
+}
